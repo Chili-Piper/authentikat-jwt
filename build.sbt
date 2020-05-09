@@ -1,11 +1,11 @@
 
 name := "authentikat-jwt"
 
-organization := "com.jason-goodwin"
+organization := "com.chilipiper"
 
-scalaVersion := "2.13.1"
+scalaVersion := "2.13.2"
 
-crossScalaVersions := Seq("2.10.6", "2.11.11", "2.12.2", "2.13.2") //sbt '+ publish'
+crossScalaVersions := Seq("2.11.11", "2.12.2", "2.13.2") //sbt '+ publish'
 
 parallelExecution := false
 
@@ -25,7 +25,6 @@ credentials += Credentials(Path.userHome / ".mdialog.credentials")
 resolvers ++= Seq(
   "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
 )
-
 
 bintrayRepository := "authentikat-jwt"
 bintrayOrganization := Some("chili-piper")
